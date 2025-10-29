@@ -1,0 +1,21 @@
+/* ...existing code... */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f9f9f9;
+}
+h1 {
+    color: #2c3e50;
+}
+footer {
+    font-size: 0.95rem;
+}
+.carousel-inner img {
+    object-fit: cover;
+    height: 400px;
+}
+@media (max-width: 768px) {
+    .carousel-inner img {
+        height: 200px;
+    }
+}
+/* ...existing code... */
